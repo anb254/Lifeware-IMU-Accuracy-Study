@@ -1,1 +1,3 @@
-
+Convert raw OMC data to corresponding arrays in Matlab, that are labeled according to the marker name.
+Run Vicon_Alignment_8_25.m, which calls vicon_align_est_8_25.m to get the R_body_OMClocal rotation matrices for each sensor.
+Run Accuracy_Vicon_Dynamic_8_25.m, which derives ROM for each segment and calls the following three additional functions to derive Euler angles based on different orders of decomposition: rmx2eul_xyz, rmx2eul_yxz, rmx2eul_zxy
