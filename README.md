@@ -5,6 +5,7 @@ Custom Matlab codes used to derive results discussed in 'Assessing the he reliab
 This repository contains codes to derive range of motion from Vicon (OMC) data and IMU data. 
 
 Coordinate systems are as follows:
+
 Vicon: +x = right, +y = forward, +z = up
 
 IMU (L5 and Hip): +x = down, +y = right, +z = backward
